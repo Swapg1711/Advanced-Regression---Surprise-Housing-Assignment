@@ -14,20 +14,20 @@
 - Provide general information about your project here.
 
 - What is the background of your project?
-A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file.
+- A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file.
 
 - What is the business probem that your project is trying to solve?
-The company is looking at prospective properties to buy to enter the market. we are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+- The company is looking at prospective properties to buy to enter the market. we are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
 - The company wants to know:
 
 
-Which variables are significant in predicting the price of a house, and
-How well those variables describe the price of a house.
-Also, determine the optimal value of lambda for ridge and lasso regression.
+- Which variables are significant in predicting the price of a house, and
+- How well those variables describe the price of a house.
+- Also, determine the optimal value of lambda for ridge and lasso regression.
 
 - What is the dataset that is being used?
-Data has been provided by Surprise Housing.
+- Data has been provided by Surprise Housing.
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -46,8 +46,8 @@ Data has been provided by Surprise Housing.
 •	MSSubClass_70
 •	BsmtExposure_Gd
 
-Optimal value of lambda for Ridge Regression = 9
-Optimal value of lambda for Lasso = 0.001
+- Optimal value of lambda for Ridge Regression = 9
+- Optimal value of lambda for Lasso = 0.001
 
 Ridge at alpha = 9
 •	R2 Score (Train) = 0.95
@@ -63,21 +63,21 @@ Lasso at alpha = 0.001
 
 ## Technologies Used
 - import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn import linear_model, metrics
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import mean_squared_error, r2_score
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- from sklearn import linear_model, metrics
+- from sklearn.linear_model import LinearRegression
+- from sklearn.linear_model import Ridge
+- from sklearn.linear_model import Lasso
+- from sklearn.model_selection import GridSearchCV
+- from sklearn.metrics import mean_squared_error, r2_score
 
-import os
+- import os
 
 # hide warnings
-import warnings
-warnings.filterwarnings('ignore')
+- import warnings
+- warnings.filterwarnings('ignore')
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
